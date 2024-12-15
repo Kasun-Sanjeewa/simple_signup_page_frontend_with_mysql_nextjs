@@ -47,7 +47,7 @@ export default function BasicTable({ users }) {
                             )
                         }) : (
                             <TableRow>
-                                <TableCell colSpan={10} align="center" sx={{ border: '1px solid #ccc' }}>No Data</TableCell>
+                                <TableCell colSpan={10} align="center" sx={{ border: '1px solid #ccc' }}>No Data or Connection Less</TableCell>
                             </TableRow>
                         )
                     }
